@@ -4,22 +4,22 @@ import org.testng.annotations.Test;
 
 public class Home_Loan {
 
-	@Test 
+	@Test (groups ="Smoke")
 	
-	void homeloanuser1() {
-		
+	void HLuser1() {
+		System.out.println("Smoke HL1");
 		System.out.println("Homeloan_User1");
 	}
 	
 @Test 
 	
-	void homeloanuser2() {
+	void HLuser2() {
 		
 		System.out.println("Homeloan_User2");
 	}
 @Test 
 
-void homeloanuser3() {
+void HLuser3() {
 	
 	System.out.println("Homeloan_User3");
 }
