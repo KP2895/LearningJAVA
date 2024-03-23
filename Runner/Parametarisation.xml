@@ -3,7 +3,7 @@
 
 <suite name="Suite">
 	
-<parameter name="URL" value="ABC.com"></parameter>
+
 	<test name="Test">
 		
 	
