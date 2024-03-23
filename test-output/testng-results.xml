@@ -1,11 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-22T21:28:29 IST" name="Default suite" finished-at="2024-03-22T21:28:29 IST" duration-ms="30">
+  <suite started-at="2024-03-23T11:45:17 IST" name="SuiteforParamerised_xml" finished-at="2024-03-23T11:45:17 IST" duration-ms="232">
     <groups>
+      <group name="Regression">
+        <method signature="Personal_Loan.PLuser2(java.lang.String)[pri:0, instance:TestNG_Demo.Personal_Loan@689604d9]" name="PLuser2" class="TestNG_Demo.Personal_Loan"/>
+      </group> <!-- Regression -->
     </groups>
-    <test started-at="2024-03-22T21:28:29 IST" name="Default test" finished-at="2024-03-22T21:28:29 IST" duration-ms="30">
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    <test started-at="2024-03-23T11:45:17 IST" name="Parametarisation_though_xml" finished-at="2024-03-23T11:45:17 IST" duration-ms="102">
+      <class name="TestNG_Demo.Personal_Loan">
+        <test-method is-config="true" signature="displaysecond()[pri:0, instance:TestNG_Demo.Personal_Loan@689604d9]" started-at="2024-03-23T11:45:17 IST" name="displaysecond" finished-at="2024-03-23T11:45:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displaysecond -->
+        <test-method signature="PLuser1(java.lang.String)[pri:0, instance:TestNG_Demo.Personal_Loan@689604d9]" started-at="2024-03-23T11:45:17 IST" name="PLuser1" finished-at="2024-03-23T11:45:17 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABC.COM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PLuser1 -->
+        <test-method signature="PLuser2(java.lang.String)[pri:0, instance:TestNG_Demo.Personal_Loan@689604d9]" started-at="2024-03-23T11:45:17 IST" name="PLuser2" finished-at="2024-03-23T11:45:17 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PQR.COM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PLuser2 -->
+      </class> <!-- TestNG_Demo.Personal_Loan -->
+    </test> <!-- Parametarisation_though_xml -->
+    <test started-at="2024-03-23T11:45:17 IST" name="Parametarisation_though_xmlpart2" finished-at="2024-03-23T11:45:17 IST" duration-ms="25">
+      <class name="TestNG_Demo.Personal_Loan">
+        <test-method is-config="true" signature="displayfirst()[pri:0, instance:TestNG_Demo.Personal_Loan@689604d9]" started-at="2024-03-23T11:45:17 IST" name="displayfirst" finished-at="2024-03-23T11:45:17 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayfirst -->
+      </class> <!-- TestNG_Demo.Personal_Loan -->
+      <class name="TestNG_Demo.Mobile_Loan">
+        <test-method is-config="true" signature="display()[pri:0, instance:TestNG_Demo.Mobile_Loan@7c7a06ec]" started-at="2024-03-23T11:45:17 IST" name="display" finished-at="2024-03-23T11:45:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display -->
+        <test-method signature="MBuser1()[pri:0, instance:TestNG_Demo.Mobile_Loan@7c7a06ec]" started-at="2024-03-23T11:45:17 IST" name="MBuser1" finished-at="2024-03-23T11:45:17 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MBuser1 -->
+        <test-method signature="MBuser2(java.lang.String)[pri:0, instance:TestNG_Demo.Mobile_Loan@7c7a06ec]" started-at="2024-03-23T11:45:17 IST" name="MBuser2" finished-at="2024-03-23T11:45:17 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABC.COM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MBuser2 -->
+        <test-method signature="MBuser3()[pri:0, instance:TestNG_Demo.Mobile_Loan@7c7a06ec]" started-at="2024-03-23T11:45:17 IST" name="MBuser3" finished-at="2024-03-23T11:45:17 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MBuser3 -->
+      </class> <!-- TestNG_Demo.Mobile_Loan -->
+    </test> <!-- Parametarisation_though_xmlpart2 -->
+  </suite> <!-- SuiteforParamerised_xml -->
 </testng-results>

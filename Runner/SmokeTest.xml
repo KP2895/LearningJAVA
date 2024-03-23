@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test name="SmokeTest">
+		<classes>
+			<class name="TestNG_Demo.Car_Loan">
+				<methods>
+					<exclude name="CLuser1" />
+					<exclude name="CLuser2" />
+				</methods>
+			</class>
+
+
+			<class name="TestNG_Demo.Home_Loan">
+				<methods>
+
+					<include name="HLuser1" />
+
+				</methods>
+			</class>
+
+			<class name="TestNG_Demo.Personal_Loan" />
+		</classes>
+	</test>
+
+
+</suite> <!-- Suite -->
